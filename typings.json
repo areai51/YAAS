@@ -1,0 +1,16 @@
+{
+	"globalDependencies": {
+		"axios": "registry:dt/axios#0.9.1+20160629101425",
+		"c3": "registry:dt/c3#0.0.0+20160811144020",
+		"core-js": "registry:dt/core-js#0.0.0+20160914114559",
+		"d3": "registry:dt/d3#0.0.0+20160727131401",
+		"jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
+		"lodash": "registry:dt/lodash#4.14.0+20160830145422",
+		"moment": "registry:dt/moment#2.11.1+20160829143156",
+		"moment-timezone": "registry:dt/moment-timezone#0.2.5+20160329220348",
+		"node": "registry:dt/node#6.0.0+20160919063032",
+		"source-map": "registry:dt/source-map#0.0.0+20160317120654",
+		"uglify-js": "registry:dt/uglify-js#2.6.1+20160316155526",
+		"webpack": "registry:dt/webpack#1.12.9+20160724112410"
+	}
+}

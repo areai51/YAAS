@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"sourceMap": true
+	},
+	"include": [
+		"./config/shared-typings/index.d.ts",
+		"./typings/index.d.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"typings/main.d.ts",
+		"typings/main"
+	],
+	"compileOnSave": false,
+	"buildOnSave": false,
+	"atom": {
+		"rewriteTsconfig": false
+	}
+}
