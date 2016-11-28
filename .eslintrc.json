@@ -1,0 +1,48 @@
+{
+	"extends": "eslint:recommended",
+	"ecmaFeatures": {
+		"modules": true,
+		"arrowFunctions": true,
+		"binaryLiterals": true,
+		"blockBindings": true,
+		"classes": true,
+		"defaultParams": true,
+		"destructuring": true,
+		"forOf": true,
+		"generators": true,
+		"objectLiteralComputedProperties": true,
+		"objectLiteralDuplicateProperties": true,
+		"objectLiteralShorthandMethods": true,
+		"objectLiteralShorthandProperties": true,
+		"octalLiterals": true,
+		"regexUFlag": true,
+		"regexYFlag": true,
+		"restParams": true,
+		"spread": true,
+		"superInFunctions": true,
+		"templateStrings": true,
+		"unicodeCodePointEscapes": true,
+		"globalReturn": true,
+		"jsx": false,
+		"experimentalObjectRestSpread": true
+	},
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true,
+		"amd": true
+	},
+	"globals": {},
+	"rules": {
+		"strict": "error",
+		"comma-dangle": ["error", "never"],
+		"semi": ["error", "always"],
+		"no-underscore-dangle": "off",
+		"no-unused-vars": "warn",
+		"no-console": "off",
+		"quotes": [
+			"error",
+			"single"
+		]
+	}
+}
