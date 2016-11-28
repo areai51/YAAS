@@ -1,3 +1,5 @@
+# See https://github.com/github/gitignore for more
+
 # Logs
 logs
 *.log
@@ -29,9 +31,43 @@ build/Release
 # Dependency directories
 node_modules
 jspm_packages
+bower_components
 
 # Optional npm cache directory
 .npm
 
 # Optional REPL history
 .node_repl_history
+
+# OS generated files
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Optional eslint cache
+.eslintcache
+
+# Typing
+/src/typings/tsd/
+/typings/
+/tsd_typings/
+
+# Compiled output
+/dist
+/tmp
+/__build__/**
+/public/__build__/
+/src/*/__build__/
+/public/dist/
+/src/*/dist/
+.webpack.json
+
+# IDE
+.idea/
+.project
+*.swp
+
+# Sass Config
+/.sass-cache
+*.css.map
