@@ -50,8 +50,8 @@ module.exports = function(options) {
 			 * An array of extensions that should be used to resolve modules.
 			 *
 			 * See: http://webpack.github.io/docs/configuration.html#resolve-extensions
-             *
-             * @TODO: can add more. subject to review
+			 *
+			 * @TODO: can add more. subject to review
 			 */
 			extensions: ['', '.ts', '.js', '.json'],
 
