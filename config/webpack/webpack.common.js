@@ -215,8 +215,7 @@ module.exports = function(options) {
 		 * See: https://webpack.github.io/docs/configuration.html#node
 		 */
 		node: {
-			global: 'window',
-			crypto: 'empty',
+			global: true,
 			process: true,
 			module: false,
 			clearImmediate: false,

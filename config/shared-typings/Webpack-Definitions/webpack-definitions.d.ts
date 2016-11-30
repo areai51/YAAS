@@ -1,7 +1,3 @@
-// GENERATED FROM <URL>
-// File: /config/common/webpack/webpack-definitions.d.ts
-// Copied to: /.frontend-config/webpack-definitions.d.ts
-
 /**
  * GlobalEnvironment represents the variables that are replaced with actual values during build time with the project
  * build metadata.
