@@ -53,7 +53,7 @@ module.exports = function(options) {
 			 *
 			 * @TODO: can add more. subject to review
 			 */
-			extensions: ['', '.ts', '.js', '.json'],
+			extensions: ['', '.ts', '.tsx', '.js', '.json'],
 
 			root: projectRoot,
 

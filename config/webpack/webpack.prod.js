@@ -26,15 +26,26 @@ module.exports = function(options) {
 			],
 			loaders: [
 				/**
-				 * Typescript loader support for .ts
+				 * Angular2 Template loader, Typescript loader and Babel loader support for .ts(x) files
 				 */
 				{
-					test: /\.ts$/,
-					loader: 'ts',
+					test: /\.ts(x?)$/,
+					exclude: projectConfig.webpackConfig.jsExclude,
+					loader: 'babel-loader?presets[]=es2015!ts-loader?compilerOptions' + JSON.stringify({
+							removeComments: false,
+							sourceMap: false,
+							inlineSourceMap: true
+						}) + '!angular2-template-loader'
+				},
+				/**
+				 * Babel loader support for .js files
+				 */
+				{
+					test: /\.js$/,
+					exclude: projectConfig.webpackConfig.jsExclude,
+					loader: 'babel-loader',
 					query: {
-						compilerOptions: {
-							removeComments: true
-						}
+						presets: ['es2015']
 					}
 				}
 			]
