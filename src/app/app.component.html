@@ -1,4 +1,26 @@
+<header>
+	<div>
+		<h1 class="app__title"> {{ appService.getTitle() }} (header content)</h1>
+		<h3 class="app__description"> {{ appService.getDescription() }} </h3>
+	</div>
+	<nav>
+		<span>Navigation : </span>
+		<a [routerLink]=" ['./'] " routerLinkActive="active">
+			Index
+		</a>
+		<a [routerLink]=" ['./home'] " routerLinkActive="active">
+			Home
+		</a>
+		<a [routerLink]=" ['./about'] " routerLinkActive="active">
+			About
+		</a>
+	</nav>
+</header>
+
 <main>
-	<h1 class="app__title"> {{ appService.getTitle() }} </h1>
-	<h3 class="app__description"> {{ appService.getDescription() }} </h3>
+	<router-outlet></router-outlet>
 </main>
+
+<footer>
+	<span>Your footer content goes here</span>
+</footer>

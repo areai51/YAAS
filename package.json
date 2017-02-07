@@ -38,9 +38,9 @@
     "stylelint": "stylelint 'src/**/*.scss' --syntax scss",
     "build": "npm run build:dev",
     "build:dev": "webpack --config config/webpack.config.js --progress --profile --bail",
-    "prebuild:dev": "npm run clean && npm run test && npm run lint",
+    "prebuild:dev": "npm run clean && npm run lint",
     "build:prod": "ENV=prod webpack --config config/webpack.config.js --progress --profile --bail",
-    "prebuild:prod": "npm run clean && npm run test:prod && npm run lint",
+    "prebuild:prod": "npm run clean && npm run lint",
     "postinstall": "typings install"
   },
   "dependencies": {
